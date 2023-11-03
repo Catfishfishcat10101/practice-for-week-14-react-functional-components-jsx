@@ -1,7 +1,12 @@
+// Assuming that Showcase component is in the same directory
+import React from 'react';
+import Showcase from './Showcase';
+import './app.css';
+
 function App() {
   return (
-    <div>
-      <h1>App Component</h1>
+    <div className="App background">
+      <Showcase />
     </div>
   );
 }
